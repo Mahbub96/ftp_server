@@ -1,0 +1,20 @@
+{
+  "name": "machine-learning-api",
+  "version": "1.0.0",
+  "description": "This api can run some code of python and return some values",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahbub",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "thumbsupply": "^0.4.0"
+  }
+}
